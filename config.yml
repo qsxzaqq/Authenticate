@@ -1,0 +1,17 @@
+Prefix: "§a正版认证 &b&l>>>&f "
+MaxAmount: 3
+Success:
+  message: "&a认证成功! 请查看称号是否到账!"
+  Commands:
+  - "pex user %player% add ch.zb"
+Error:
+  malformedURL: "&c出现未知错误, 请联系服主修复! 错误代码: MalformedURL!"
+  errorpassword: "&c邮箱或密码不正确, 请认真检查! 剩余认证次数: &f%amount%"
+  errorencoding: "&c出现未知错误, 请联系服主修复! 错误代码: ErrorEncoding!"
+  errorname: "&c该邮箱正版ID与您的游戏ID不同!"
+  maxamount: "&c您的认证次数已经达到上限!"
+  command:
+  - "&e请输入正确的命令进行正版认证"
+  - "&a正确命令: /zb <邮箱> <密码>"
+  - "&a每个人有%amount%次认证机会"
+  success: "&e你已经正版认证了!"

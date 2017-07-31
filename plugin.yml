@@ -1,0 +1,7 @@
+name: Authenticate
+main: com.github.Zoxuh.Authenticate
+version: 1.2
+author: Zoxuh
+commands:
+  zb:
+    description: Command for Authenticate
